@@ -1,0 +1,307 @@
+.contact-content {
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(#141414, .20);
+        top: 0;
+        left: 0;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        color: $color-white;
+        font-size: 36px;
+        z-index: 9;
+        position: relative;
+        padding-bottom: 20px;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 80px;
+            height: 1px;
+            background: $color-white;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0px);
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            bottom: -5px;
+            background: #fff;
+            width: 11px;
+            height: 11px;
+            border: 1px solid #141414;
+            left: 50%;
+            transform: translate(-50%, 0px) rotate(45deg);
+        }
+    }
+
+    h6 {
+        font-size: 18px;
+        color: $color-white;
+        z-index: 9;
+        position: relative;
+        margin-top: 35px;
+    }
+
+    .input-group {
+        border-bottom: 2px solid $color-white;
+        color: $color-white;
+        margin-top: 60px;
+
+        .subscribe-text {
+            position: absolute;
+            font-size: 16px;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+            color: $color-white;
+            font-weight: 600;
+            right: 0px;
+            bottom: 4px;
+            cursor: pointer;
+        }
+    }
+
+    .input-group-text {
+        padding: 0px;
+        padding-right: 5px;
+
+        i:before {
+            color: $color-white;
+            font-size: 25px;
+        }
+    }
+
+    .input-group-text, .form-control {
+        border: 0px;
+        background: transparent;
+        border-radius: 0px;
+        color: $color-white;
+
+        &:focus {
+            border: 0px;
+        }
+    }
+
+    .form-control::placeholder {
+        color: $color-white;
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+.single-contact-box {
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    .icon {
+        width: 60px;
+        height: 60px;
+        background: $color-main;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 70px;
+        margin-bottom: 40px;
+
+        i:before {
+            color: $color-white;
+            font-size: 32px;
+        }
+    }
+
+    span, a {
+        color: #141414;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+.contact-form {
+    background: #F5F5F5;
+
+    input, textarea {
+        border-radius: 0px;
+        border-color: #CCCCCC;
+        background: rgba($color-white, .50);
+        padding: 14px 20px;
+        width: 100%;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #CCCCCC;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+    .form-row>.col, .form-row>[class*=col-] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+#inlineFormInputGroup {
+    padding-right: 110px;
+}
+
+.btn-contact {
+    background: #141414;
+    font-size: 14px;
+    font-weight: 700;
+    color: $color-white;
+    text-transform: uppercase;
+    line-height: 16px;
+    border-radius: 0px;
+    padding: 18px 50px;
+    text-align: center;
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:100%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:100%;
+}
+
+.contact-content-02 {
+    position: relative;
+
+    h2 {
+        text-transform: uppercase;
+        color: #141414;
+        font-size: 36px;
+        z-index: 9;
+    }
+
+    h6 {
+        font-size: 16px;
+        color: #A4A4A4;
+        z-index: 9;
+        position: relative;
+        margin-top: 35px;
+    }
+
+    .input-group {
+        border: 1px solid #E9E9E9;
+        color: #141414;
+        margin-top: 60px;
+        padding: 20px;
+        background: #fff;
+
+        .subscribe-text {
+            position: absolute;
+            font-size: 16px;
+            color: #fff;
+            background: #141414;
+            font-weight: 400;
+            right: 0px;
+            height: 100%;
+            top: 0;
+            cursor: pointer;
+        }
+        .icon-arrow-point-to-right:before {
+            color: #fff;
+            padding: 0px 27px;
+            display: block;
+        }
+    }
+
+    .input-group-text, .form-control {
+        border: 0px;
+        background: transparent;
+        border-radius: 0px;
+        color: #A4A4A4;
+
+        &:focus {
+            border: 0px;
+        }
+    }
+
+    .form-control::placeholder {
+        color: #A4A4A4;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+    }
+
+    #inlineFormInputGroup {
+        padding: 0px;
+    }
+}
+
+.contact-content-03 {
+    position: relative;
+
+    h6 {
+        font-size: 16px;
+        color: #A4A4A4;
+        z-index: 9;
+        margin-top: 35px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .input-group {
+        border: 1px solid #E9E9E9;
+        color: #141414;
+        margin-top: 40px;
+        padding: 14px 30px;
+        background: #fff;
+    }
+
+    .form-control {
+        border: 0px;
+        background: transparent;
+        border-radius: 0px;
+        color: #A4A4A4;
+
+        &:focus {
+            border: 0px;
+        }
+    }
+
+    .form-control::placeholder {
+        color: #A4A4A4;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1.6px;
+    }
+
+    .btn-yellow {
+        background: #E36E3A;
+        color: #fff;
+        border-radius: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1.6px;
+        line-height: 26px;
+        padding: 10px 32px;
+        margin-top: 20px;
+    }
+
+    #inlineFormInputGroup {
+        padding: 0px;
+    }
+}
+.contact-content:before {
+    background: rgba(0, 0, 0, 0.35);
+}
+.contact-content .input-group .subscribe-text {
+    z-index: 999;
+}

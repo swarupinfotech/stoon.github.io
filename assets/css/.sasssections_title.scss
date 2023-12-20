@@ -1,0 +1,49 @@
+.section-title {
+    text-align: center;
+
+    h3 {
+        font-size: 36px;
+        display: inline-block;
+        position: relative;
+        padding-bottom: 10px;
+
+        &:before {
+            position: absolute;
+            content: '';
+            width: 80px;
+            height: 1px;
+            background: $color-para;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, 0px);
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            bottom: -5px;
+            background: #fff;
+            width: 11px;
+            height: 11px;
+            border: 1px solid #141414;
+            left: 50%;
+            transform: translate(-50%, 0px) rotate(45deg);
+        }
+    }
+}
+
+.section-title-02 {
+    h6 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #141414;
+        font-family: var(--body-font);
+    }
+    h3 {
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        letter-spacing: 0;
+        font-size: 42px;
+        color: #141414;
+    }
+}

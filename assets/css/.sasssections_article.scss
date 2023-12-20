@@ -1,0 +1,209 @@
+.article-style-01 {
+    margin-bottom: 45px;
+
+    .thumb {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            transition: all 3.5s ease 0s;
+        }
+
+        .tag {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background: $color-main;
+            color: $color-white;
+            font-size: 12px;
+            padding: 4px 12px 3px 12px;
+
+            &.tag-green {
+                background: #54CABF;
+            }
+        }
+    }
+    .content {
+        padding-top: 20px;
+
+        .date {
+            font-size: 14px;
+            color: $color-para;
+        }
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            color: #141414;
+            padding-right: 50px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+
+            a {
+                transition: .3s;
+            }
+
+            &:hover a {
+                color: $color-main;
+            }
+        }
+        p {
+            color: $color-para;
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        .btn-wrapper a {
+            color: $color-para;
+            size: 14px;
+            text-decoration: underline;
+            padding: 0px;
+
+            &:hover {
+                color: $color-main;
+            }
+        }
+    }
+
+    
+
+    &:hover {
+        .thumb img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.article-style-02 {
+    margin-bottom: 45px;
+
+    .thumb {
+        overflow: hidden;
+
+        img {
+            transition: all 3.5s ease 0s;
+        }
+    }
+
+    .date {
+        position: absolute;
+        top: -25px;
+        left: 0px;
+        background: $color-main;
+        color: $color-white;
+        font-size: 14px;
+        padding: 13px 20px;
+
+        &.pink-date {
+            background: #EB2246;
+        }
+    }
+    .content {
+        padding-top: 30px;
+        position: relative;
+
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            color: #141414;
+            padding-right: 50px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+
+            a {
+                transition: .3s;
+            }
+
+            &:hover a {
+                color: $color-main;
+            }
+        }
+        p {
+            color: $color-para;
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        .btn-wrapper a {
+            color: #141414;
+            size: 14px;
+            padding: 0px;
+
+            &:hover {
+                color: $color-main;
+            }
+        }
+    }
+
+    
+
+    &:hover {
+        .thumb img {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.article-style-03 {
+    margin-bottom: 45px;
+
+    .thumb {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            transition: all 3.5s ease 0s;
+        }
+    }
+    .content {
+        padding-top: 20px;
+
+        .date {
+            font-size: 14px;
+            color: $color-para;
+        }
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            color: #141414;
+            padding-right: 50px;
+            padding-top: 15px;
+            padding-bottom: 10px;
+
+            a {
+                transition: .3s;
+            }
+
+            &:hover a {
+                color: $color-main;
+            }
+        }
+        p {
+            color: $color-para;
+            font-size: 14px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        .btn-wrapper a {
+            color: #141414;
+            size: 14px;
+            padding: 9px 26px;
+            border: 1px solid #E9E9E9;
+            border-radius: 0px;
+
+            &:hover {
+                color: $color-main;
+            }
+        }
+    }
+
+    
+
+    &:hover {
+        .thumb img {
+            transform: scale(1.1);
+        }
+    }
+}

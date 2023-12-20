@@ -1,0 +1,115 @@
+.sales-content {
+    padding: 120px 0px;
+
+    h2 {
+        font-size: 46px;
+        color: $color-white;
+    }
+
+    h6 {
+        color: $color-white;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: var(--secondary-font);
+    }
+}
+
+.sales-content-02 {
+    padding: 120px 0px;
+
+    h2 {
+        font-size: 46px;
+        color: $color-black;
+    }
+
+    h6 {
+        color: $color-black;
+        font-size: 24px;
+        font-weight: 700;
+        font-family: var(--secondary-font);
+        margin-bottom: 30px;
+    }
+}
+
+.deal-content {
+    background: url(../img/others/deal.png);
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0px;
+
+    h2 {
+        font-size: 36px;
+        color: #141414;
+        letter-spacing: 0;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    h6 {
+        color: #141414;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        font-family: var(--font-font);
+    }
+
+    .btn-deal {
+        font-size: 16px;
+        color: $color-white;
+        background: $color-black;
+        border-radius: 0px;
+        padding: 12px 30px;
+        margin-top: 30px;
+
+        .icon-arrow-buttom:before {
+            color: #fff;
+            font-size: 17px;
+            margin-left: 5px;
+            position: relative;
+            top: 2px;
+        }
+
+        &:hover {
+            color: $color-white;
+            background: $color-black;
+        }
+    }
+
+    .clockdiv {
+        display: inline-flex;
+        font-weight: 100;
+        text-align: center;
+        width: calc(100% - 40px);
+        justify-content: center;
+        opacity: 1;
+        transition: all .3s;
+        margin-top: 20px;
+        
+        > div {
+            padding: 15px 0px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            margin-right: 12%;
+            justify-content: center;
+    
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            > span{
+                display: block;
+                font-size: 36px;
+                font-weight: 700;
+                color: #141414;
+                line-height: 56px;
+            }
+
+            > .smalltext {
+                font-size: 14px; 
+                color: $color-white;
+                line-height: 22px;
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.error-area {
+    background: url(../img/others/error.png);
+    background-position: bottom;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+
+    .error-header {
+        padding: 30px 0px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .error-content {
+        padding: 0px 15px;
+        h2 {
+            font-size: 72px;
+            line-height: 66px;
+            color: #000;
+            font-family: var(--secondary-font);
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+
+        h6 {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #A4A4A4;
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+
+        .btn-notify {
+            background: $color-main;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #000;
+            border-radius: 0px;
+            padding: 16px 32px;
+            margin-top: 20px;
+        }
+    }
+    .btn-error {
+        background: #A4A4A4;
+        padding: 13px 30px;
+        border-radius: 0px;
+        color: #fff;
+        text-transform: uppercase;
+
+        &:hover {
+            background: $color-main;
+        }
+    }
+}
+

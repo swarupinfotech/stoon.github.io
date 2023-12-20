@@ -1,0 +1,167 @@
+.coming-area {
+    background: url(../img/others/coming.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .coming-header {
+        padding: 30px 0px;
+        border-bottom: 1px solid rgba($color-white, .20);
+    }
+
+    .coming-content {
+        padding: 0px 15px;
+
+        h2 {
+            font-size: 72px;
+            line-height: 66px;
+            color: #fff;
+            font-family: var(--secondary-font);
+            font-weight: 700;
+            margin-bottom: 60px;
+        }
+
+        h6 {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: $color-white;
+            margin-top: 60px;
+            margin-bottom: 20px;
+        }
+
+        .btn-notify {
+            background: $color-main;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #fff;
+            border-radius: 0px;
+            padding: 15px 33px;
+            margin-top: 20px;
+        }
+    }
+
+    #clockdiv{
+        font-family: sans-serif;
+        color: #fff;
+        display: inline-flex;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    #clockdiv > div{
+        padding: 10px 0px 8px 0px;
+        border-radius: 0px;
+        background: rgba(#141414, 0.5);
+        display: flex;
+        flex-direction: column;
+        width: 203px;
+        height: 203px;
+        margin-right: 20px;
+        justify-content: center;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+    
+    #clockdiv div > span{
+        display: block;
+        font-size: 72px;
+        line-height: 72px;
+        font-weight: 600;
+    }
+    
+    .text{
+        padding-top: 5px;
+        font-size: 20px;
+        line-height: 43px;
+    }
+
+    .input-group {
+        background: rgba(#fff, .20);
+        color: $color-white;
+        padding: 15px 20px;
+
+        .subscribe-text {
+            position: absolute;
+            font-size: 16px;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+            color: $color-white;
+            font-weight: 600;
+            right: 0px;
+            bottom: 4px;
+            cursor: pointer;
+        }
+    }
+
+    .input-group-text {
+        padding: 0px;
+        padding-right: 5px;
+
+        i:before {
+            color: $color-white;
+            font-size: 25px;
+        }
+    }
+
+    .input-group-text, .form-control {
+        border: 0px;
+        background: transparent;
+        border-radius: 0px;
+        color: $color-white;
+
+        &:focus {
+            border: 0px;
+        }
+    }
+
+    .form-control::placeholder {
+        color: $color-white;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .coming-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid rgba($color-white, .20);
+
+        p {
+            font-size: 13px;
+            color: #fff;
+            line-height: 20px;
+            margin-bottom: 0px;
+
+            i:before {
+                color: $color-main;
+            }
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            float: right;
+            padding: 10px 0px;
+
+            li {
+                list-style: none;
+                margin-right: 20px;
+                font-size: 20px;
+                color: #fff;
+
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+

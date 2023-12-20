@@ -1,0 +1,27 @@
+
+//== Template Main Color
+$color-main : #FF8E78;
+$color-white : #fff;
+$color-black : #000;
+$color-para : #A4A4A4;
+$color-gray : #F5F5F5;
+$color-gray99 : #F9F9FA;
+$color-gray80 : #cccccc;
+
+
+/*-----------------
+    # Typography
+-----------------*/
+
+@import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap");
+
+@font-face {
+    font-family: "Reey";
+    src: url("../fonts/reey-regular.otf") format("opentype");
+    font-weight: 400;
+}
+
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

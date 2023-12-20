@@ -1,0 +1,125 @@
+.video-content {
+    padding: 280px 0px;
+
+    &.padding-150 {
+        padding: 150px 0px;
+    }
+
+    a {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1px solid $color-white;
+        display: inline-block;
+        color: $color-white;
+        font-size: 25px;
+        line-height: 70px;
+    }
+
+    h4 {
+        color: #fff;
+        font-family: var(--secondary-font);
+        font-style: italic;
+        font-size: 42px;
+        line-height: 26px;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-family: var(--body-font);
+        font-size: 100px;
+        font-weight: 600;
+        color: #fff;
+        margin: 30px 0px;
+    }
+}
+
+.video-content-02 {
+    padding: 280px 0px;
+
+    a {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: inline-block;
+        color: $color-white;
+        font-size: 25px;
+        line-height: 70px;
+        background: #E36E3A;
+
+        i {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 1px solid $color-white;
+            display: inline-block;
+            color: $color-white;
+            font-size: 25px;
+            line-height: 70px;
+            margin-top: 15px;
+        }
+    }
+}
+
+.fashion-slider {
+    .content {
+        padding: 0px 70px;
+    }
+    h6 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #141414;
+    }
+    h3 {
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        letter-spacing: 0;
+        font-size: 42px;
+        color: #141414;
+    }
+    p {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+
+        li {
+            list-style: none;
+
+            a i {
+                color: #FFB503;
+            }
+        }
+    }
+    .price {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .slick-dots {
+        bottom: -70px;
+        
+        li {
+            width: 10px;
+            
+            button {
+                background: #A4A4A4;
+                width: 11px;
+                height: 11px;
+                border-radius: 50%;
+        
+                &:before {
+                    display: none;
+                }
+            }
+        }
+    } 
+    
+    .slick-active button {
+        background: #54CABF !important;
+    }
+}

@@ -1,0 +1,80 @@
+/*
+Theme Name: Stooon
+Theme URI: http://zwin.io/html/stooon/
+Author: Zwin
+Author URI: http://zwin.io/
+Description: Stooon is a fashion eCommerce bootstrap 4 html template.
+Version: 1.0.0
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+    ## Global
+    ## Mixins
+    ## Theme
+    ## Variables
+
+# Sections
+    ## Nav Bar
+    ## Banner
+    ## Brand Area
+    ## Footer
+    ## Widgets
+
+# Elements
+    ## Back Top
+    ## Preloader
+    ## Search Popup
+    ## Button
+    ## Flaticon
+
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_global";
+@import "global/_theme";
+
+
+//== Pages
+//== Sections 
+@import "sections/_navbar";
+@import "sections/_banner";
+@import "sections/_collection";
+@import "sections/_brand_area";
+@import "sections/_arrival";
+@import "sections/_sales";
+@import "sections/_article";
+@import "sections/_beauty";
+@import "sections/_contact";
+@import "sections/_instagram";
+@import "sections/_title";
+@import "sections/_delivery";
+@import "sections/_breadcrumb";
+@import "sections/_about";
+@import "sections/_team";
+@import "sections/_accordion";
+@import "sections/_widget";
+@import "sections/_shop";
+@import "sections/_pagination";
+@import "sections/_megamenu";
+@import "sections/_details";
+@import "sections/_faq";
+@import "sections/_coming";
+@import "sections/_error";
+@import "sections/_blog";
+@import "sections/_cart";
+@import "sections/_others";
+@import "sections/_footer";
+
+
+//== Elements
+@import "elements/_back_top";
+@import "elements/_preloader";
+@import "elements/_search_popup";
+@import "elements/_button";
+@import "elements/_flaticon";

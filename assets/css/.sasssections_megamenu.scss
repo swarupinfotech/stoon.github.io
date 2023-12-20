@@ -1,0 +1,165 @@
+// filter menu 
+.filter { 
+  position: relative; 
+}
+
+.filter-menu-block h4 {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #141414;
+}
+
+.filter-menu-block .color-widget .color-list li {
+  margin-bottom: 5px;
+}
+
+.filter-level-link:hover .mega-menu {
+   i, span {
+     color: $color-main;
+   }
+}
+
+ul.filter-main-nav { 
+  list-style-type: none; 
+  padding: 0px;
+  font-size: 0px;
+  margin: 0 auto;
+}
+
+ul.filter-main-nav > li { 
+  display: inline-block;
+  padding: 0; 
+}
+
+ul.filter-main-nav > li > a { 
+  display: block; 
+  padding: 0px 15px 20px 0px; 
+  position: relative;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all .3s;
+}
+ul.filter-main-nav > li:hover > a { 
+  color: $color-main; 
+  font-weight: 400; 
+}
+@media only screen and (max-width:768px) {
+  .filter { background-color: transparent; }
+  
+ /* Main Menu for Handheld Devices  */
+  ul.filter-main-nav {
+    z-index:2; 
+    padding: 50px 0;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 0px;
+    background-color:rgba(0,0,0,1);
+    height: 100%;
+    overflow: auto;
+    transition-property: background, width;
+    transition-duration: 0.6s;
+  }
+  
+  ul.filter-main-nav > * { 
+    transition-property: opacity;
+    transition-duration: 0.4s;
+    opacity: 0;
+  }
+  
+  ul.filter-main-nav > li > a:after {
+    display: none;
+  }
+  ul.filter-main-nav > li:first-child { 
+    border-radius: 0px; 
+  }
+  ul.filter-main-nav > li {
+    display: block;
+    border-bottom: 1px solid #444;
+  }
+  
+  ul.filter-main-nav > li > a { 
+    font-weight: 600; 
+  }
+  ul.filter-main-nav > li:hover { 
+    background-color: transparent;  
+  }
+  ul.filter-main-nav > li:hover > a {
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: 600;
+  }
+  
+  .filter-menu-block { 
+    padding: 0 30px; 
+  }
+}
+
+@media only screen and (min-width:769px) {
+    /* Main Menu for Desktop Devices  */
+    ul.filter-main-nav { 
+      display: block; 
+      position: relative; 
+      top: 75px;
+    }
+    .filter-menu-block { 
+      padding: 20px 20px 5px 20px; 
+    }
+    
+    /* Sub Menu */
+    ul.filter-main-nav > li > div.filter-menu-block { 
+      visibility: hidden;
+      background-color: #f9f9f9;
+      position: absolute;
+      margin-top: 0px;
+      width: 100%;
+      color: #333;
+      left: 0;
+      box-sizing: border-box;
+      z-index : 3;
+      font-size: 16px;
+      border: 1px solid #E9E9E9;
+      opacity: 0;
+      transition: all 0.4s ease 0s;
+      transform: rotateX(90deg);
+      transform-origin: top center;
+    }
+    
+    ul.filter-main-nav > li:hover > div.filter-menu-block{ 
+      background-color: #fff; 
+      visibility: visible;
+      opacity: 1;
+      transform: rotateX(0deg);
+    }
+    
+    ul.filter-main-nav > li > div.filter-menu-block > * {
+      transition-property: opacity;
+      transition-duration: 0.4s;
+      opacity: 0;
+    }
+    
+    ul.filter-main-nav > li:hover > div.filter-menu-block > * {
+      opacity: 1;
+    }
+    
+    /* List Separator: Inner Border */
+    ul.filter-main-nav > li > a:after {
+      content: '';
+      width: 1px;
+      height: 62px;
+      position: absolute;
+      right:0px;
+      top: 0px;
+      z-index : 2;
+    }
+    
+    /* Drop Down/Up Arrow for Mega Menu */
+    ul.filter-main-nav > li > a.mega-menu > span { 
+      display: block; 
+    }
+  
+  }

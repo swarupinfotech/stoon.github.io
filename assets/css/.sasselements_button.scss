@@ -1,0 +1,151 @@
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+
+.btn {
+    transition: all .3s;
+
+    &-white {
+        border-radius: 0px;
+        border: 1px solid $color-white;
+        font-family: var(--body-font);
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 33px;
+        color: $color-black;
+        padding: 13px 35px;
+        background: $color-white;
+
+        &:hover {
+            border: 1px solid $color-black;
+            background: $color-black;
+            color: $color-white;
+
+            .icon-arrow-buttom:before {
+                color: $color-white;
+            }
+        }
+
+        .icon-arrow-buttom:before {
+            color: #FF8E78;
+            font-size: 17px;
+            margin-left: 5px;
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    &-black {
+        border-radius: 0px;
+        border: 1px solid $color-black;
+        font-family: var(--body-font);
+        font-size: 16px;
+        letter-spacing: 0px;
+        line-height: 33px;
+        color: $color-white;
+        padding: 13px 35px;
+        background: $color-black;
+
+        &:hover, &:focus {
+            border: 1px solid #F5F5F5;
+            background: $color-white;
+            color: $color-black;
+
+            .icon-arrow-buttom:before {
+                color: $color-black;
+            }
+        }
+
+        .icon-arrow-buttom:before {
+            color: #FF8E78;
+            font-size: 17px;
+            margin-left: 5px;
+            position: relative;
+            top: 2px;
+        }
+    }
+
+    &-more {
+        border: 1px solid #E9E9E9;
+        border-radius: 0px;
+        padding: 18px 139px;
+        font-size: 16px;
+        color: #141414;
+        transition: all .3s;
+
+        &:hover {
+            background: $color-main;
+            color: $color-white;
+        }
+    }
+
+    &-sales {
+        font-size: 16px;
+        color: $color-white;
+        background: $color-main;
+        border-radius: 0px;
+        padding: 12px 30px;
+        margin-top: 30px;
+
+        .icon-arrow-buttom:before {
+            color: #fff;
+            font-size: 17px;
+            margin-left: 5px;
+            position: relative;
+            top: 2px;
+        }
+
+        &:hover {
+            color: $color-white;
+            background: $color-black;
+        }
+    }
+
+    &-video {
+        border: 1px solid #F5F5F5;
+        padding: 18px 22px;
+        margin-left: 10px;
+        border-radius: 0px;
+
+        &:hover {
+            color: $color-white;
+            background: $color-black;
+        }
+    }
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+.desktop-center {
+    text-align:center;
+}
+.desktop-left {
+    text-align:left;
+}
+.desktop-right {
+    text-align:right;
+}
+@media only screen and (max-width:768px){
+    .tablet-center {
+        text-align:center;
+    }
+    .tablet-left {
+        text-align:left;
+    }
+    .tablet-right {
+        text-align: right;
+    }
+}
+@media only screen and (max-width:414px){
+    .mobile-center {
+        text-align:center;
+    }
+    .mobile-left {
+        text-align:left;
+    }
+    .mobile-right {
+        text-align: right;
+    }
+      
+}

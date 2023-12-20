@@ -1,0 +1,44 @@
+.pagination {
+    margin-top: 50px;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 30px;
+    border-radius: 0px;
+
+    h6 {
+        font-size: 16px;
+        color: #141414;
+        margin-bottom: 0px;
+        align-items: center;
+        display: flex;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+            list-style: none;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            background: #F5F5F5;
+            margin-right: 5px;
+            line-height: 30px;
+            transition: all .3s;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            a {
+                display: block;
+            }
+
+            &:hover {
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.breadcrumb-area {
+    background: $color-main;
+    padding: 45px 0px;
+}
+.breadcrumb-inner {
+    .page-title {
+        color: $color-white;
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 0px;
+        align-self: center;
+        display: flex;
+    }
+    .page-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        li {
+            list-style: none;
+            padding-left: 20px;
+            padding-right: 20px;
+            position: relative;
+
+            a {
+                color: $color-white;
+                font-family: var(--secondary-font);
+                font-weight: 400;
+                font-size: 18px; 
+            }
+
+            &:before {
+                position: absolute;
+                content: '/';
+                right: 0px;
+                color: $color-white;
+            }
+
+            &:last-child {
+                padding-right: 0px;
+                
+                a {
+                    font-weight: 600;
+                }
+
+                &:before {
+                    display: none;
+                }
+            }
+
+            &:first-child {
+                padding-left: 0px;
+            }
+        }
+    }
+}

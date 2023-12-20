@@ -1,0 +1,112 @@
+.team-area {
+    background: #F5F5F5;
+    text-align: center;
+}
+
+.team-social {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    li {
+        list-style: none;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: #fff;
+        margin-right: 15px;
+        line-height: 35px;
+        font-size: 14px;
+        transition: all .3s;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        .icon-facebook:before {
+            color: #3B5998;
+        }
+
+        .icon-instagram:before {
+            color: #E4405F;
+        }
+
+        .icon-twitter:before {
+            color: #1DA1F2;
+        }
+
+        &:hover {
+            background: $color-black;
+            
+            i:before {
+                color: $color-white;
+            }
+        }
+    }
+}
+.team-slider {
+    padding-top: 80px;
+    .thumb {
+        img {
+            border: 8px solid #fff;
+        }
+    }
+    .slick-slide {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .slick-dots {
+        bottom: -60px;
+
+        li {
+            margin-right: 5px;
+            width: auto;
+    
+            &:last-child {
+                margin-right: 0px;
+            }
+            
+            button { 
+                width: 30px;
+    
+                &:before {
+                    width: 30px;
+                    border: 1px solid #FF8E78;
+                    background: #fff;
+                    height: 5px;
+                    content: '';
+                    opacity: 1;
+                }
+            }
+    
+            &.slick-active button {
+                width: 45px;
+    
+                &:before {
+                    width: 45px;
+                    background: #FF8E78;
+                }
+            }
+        } 
+    } 
+
+}
+
+.single-team-item {
+    .title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28px;
+        color: $color-black;
+        margin-top: 20px;
+    }
+    .designation {
+        color: #9DA1A5;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}

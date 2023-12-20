@@ -1,0 +1,31 @@
+.beauty-content {
+    background: url(../img/others/beauty.png);
+    background-position: center;
+    background-size: cover;
+    padding: 22px 0px;
+
+    .beauty-left {
+        h2 {
+            font-size: 36px;
+            text-transform: uppercase;
+            padding: 0px 50px;
+            border-right: 1px solid $color-main;
+            margin-bottom: 0px;
+        }
+    }
+
+    .beauty-right {
+        padding-left: 50px;
+
+        h2 {
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        h4 {
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+        }
+    }
+}
